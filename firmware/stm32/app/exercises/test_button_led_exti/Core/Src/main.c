@@ -48,7 +48,7 @@ I2S_HandleTypeDef hi2s3;
 SPI_HandleTypeDef hspi1;
 
 /* USER CODE BEGIN PV */
-
+volatile uint8_t g_button_pressed = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -113,6 +113,11 @@ int main(void)
     MX_USB_HOST_Process();
 
     /* USER CODE BEGIN 3 */
+    if (g_button_pressed) {
+      g_button_pressed = 0;
+      HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET); // LD4 (PD12) ON
+    }
+    /* USER CODE END 3 */
   }
   /* USER CODE END 3 */
 }
@@ -371,7 +376,12 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+  if (GPIO_Pin == GPIO_PIN_0) {
+    g_button_pressed = 1;
+  }
+}
 /* USER CODE END 4 */
 
 /**
