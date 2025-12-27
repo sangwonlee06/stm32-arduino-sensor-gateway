@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
   28:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****      (#) The extension block is not a full SPI IP, it is used only as I2S slave to
   29:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****          implement full duplex mode. The extension block uses the same clock sources
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****          as its master.
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 2
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 2
 
 
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
   85:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****                 +-----------------------+
   86:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   */
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 3
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 3
 
 
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** /* Includes ------------------------------------------------------------------*/
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  142:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  143:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** /* Private functions ---------------------------------------------------------*/
  144:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** /* Exported functions --------------------------------------------------------*/
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 4
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 4
 
 
  145:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  199:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   *         in the transaction and when a 24-bit data frame or a 32-bit data frame is selected
  200:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   *         the Size parameter means the number of 16-bit data length.
  201:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   * @param  Timeout Timeout duration
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 5
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 5
 
 
  202:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   * @note   The I2S is kept enabled at the end of transaction to avoid the clock de-synchronization
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  256:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     hi2s->Instance->DR = (*pTxData++);
  257:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     hi2s->TxXferCount--;
  258:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 6
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 6
 
 
  259:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     /* Enable I2Sext(receiver) before enabling I2Sx peripheral */
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  313:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****           return HAL_ERROR;
  314:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         }
  315:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         /* Read Data from DR register */
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 7
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 7
 
 
  316:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         (*pRxData++) = I2SxEXT(hi2s->Instance)->DR;
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  370:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  371:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         /* Check if an underrun occurs */
  372:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         if ((__HAL_I2SEXT_GET_FLAG(hi2s, I2S_FLAG_UDR) == SET) && (tmp1 == I2S_MODE_SLAVE_RX))
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 8
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 8
 
 
  373:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         {
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  427:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   *         the configuration information for I2S module
  428:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   * @param  pTxData a 16-bit pointer to the Transmit data buffer.
  429:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   * @param  pRxData a 16-bit pointer to the Receive data buffer.
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 9
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 9
 
 
  430:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   * @param  Size number of data sample to be sent:
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  484:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  485:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   /* Set the function for IT treatment */
  486:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   if ((hi2s->Init.Mode == I2S_MODE_MASTER_TX) || (hi2s->Init.Mode == I2S_MODE_SLAVE_TX))
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 10
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 10
 
 
  487:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   {
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  541:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   *         configuration phase, the Size parameter means the number of 16-bit data length
  542:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   *         in the transaction and when a 24-bit data frame or a 32-bit data frame is selected
  543:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   *         the Size parameter means the number of 16-bit data length.
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 11
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 11
 
 
  544:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   * @note   The I2S is kept enabled at the end of transaction to avoid the clock de-synchronization
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  598:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  599:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   /* Set the I2S Rx DMA transfer complete callback */
  600:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   hi2s->hdmarx->XferCpltCallback  = I2SEx_TxRxDMACplt;
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 12
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 12
 
 
  601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  655:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  656:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   __HAL_UNLOCK(hi2s);
  657:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   /* Check if the I2S is already enabled */
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 13
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 13
 
 
  658:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   if ((hi2s->Instance->I2SCFGR & SPI_I2SCFGR_I2SE) != SPI_I2SCFGR_I2SE)
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  712:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****       /* Set the I2S State ready */
  713:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****       hi2s->State = HAL_I2S_STATE_READY;
  714:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 14
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 14
 
 
  715:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****       /* Set the error code and execute error callback*/
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  769:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     /* I2S Overrun error interrupt occurred -------------------------------------*/
  770:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     if (((i2ssr & I2S_FLAG_OVR) == I2S_FLAG_OVR) && ((i2scr2 & I2S_IT_ERR) != RESET))
  771:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     {
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 15
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 15
 
 
  772:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****       /* Disable RXNE and ERR interrupt */
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  826:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****             the HAL_I2SEx_TxRxHalfCpltCallback could be implemented in the user file
  827:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****    */
  828:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** }
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 16
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 16
 
 
  829:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  883:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   I2S_HandleTypeDef *hi2s = (I2S_HandleTypeDef *)((DMA_HandleTypeDef *)hdma)->Parent;
  884:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  885:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   /* If DMA is configured in DMA_NORMAL mode */
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 17
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 17
 
 
  886:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   if (hdma->Init.Mode == DMA_NORMAL)
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  940:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** #endif /* USE_HAL_I2S_REGISTER_CALLBACKS */
  941:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** }
  942:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 18
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 18
 
 
  943:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** /**
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  997:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     }
  998:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   }
  999:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** }
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 19
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 19
 
 
 1000:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
 1054:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** #endif /* USE_HAL_I2S_REGISTER_CALLBACKS */
 1055:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     }
 1056:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   }
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 20
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 20
 
 
 1057:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** }
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
   63 001a 019B     		ldr	r3, [sp, #4]
   64 001c ABB1     		cbz	r3, .L4
   65 001e 37E0     		b	.L9
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 21
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 21
 
 
   66              	.LVL4:
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
 1081:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****       {
  102              		.loc 1 1081 10 is_stmt 0 view .LVU23
  103 0044 B4F1FF3F 		cmp	r4, #-1
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 22
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 22
 
 
  104 0048 EAD1     		bne	.L19
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  128              	.L22:
  129              	.LCFI3:
  130              		.cfi_restore_state
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 23
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 23
 
 
 1103:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         {
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
 1101:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****       {
  169              		.loc 1 1101 10 is_stmt 0 view .LVU46
  170 008a B4F1FF3F 		cmp	r4, #-1
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 24
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 24
 
 
  171 008e E7D1     		bne	.L22
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  218              		.cfi_offset 3, -8
  219              		.cfi_offset 14, -4
  922:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 25
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 25
 
 
  220              		.loc 1 922 3 is_stmt 1 view .LVU56
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  941:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  260              		.loc 1 941 1 is_stmt 0 view .LVU71
  261 003a 08BD     		pop	{r3, pc}
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 26
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 26
 
 
  262              	.LVL11:
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  214:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   {
  312              		.loc 1 214 11 is_stmt 0 view .LVU78
  313 000e 94F84120 		ldrb	r2, [r4, #65]	@ zero_extendqisi2
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 27
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 27
 
 
  314              	.LVL15:
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  352 0048 052A     		cmp	r2, #5
  353 004a 04D0     		beq	.L36
  241:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     hi2s->TxXferCount = Size;
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 28
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 28
 
 
  354              		.loc 1 241 5 is_stmt 1 view .LVU95
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  389 0064 6364     		str	r3, [r4, #68]
  249:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  390              		.loc 1 249 3 is_stmt 1 view .LVU115
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 29
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 29
 
 
  249:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  429 0094 2268     		ldr	r2, [r4]
  430              	.LVL22:
  260:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 30
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 30
 
 
  431              		.loc 1 260 5 is_stmt 0 view .LVU132
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  471 00ce DA68     		ldr	r2, [r3, #12]
  472 00d0 0292     		str	r2, [sp, #8]
  270:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     }
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 31
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 31
 
 
  473              		.loc 1 270 7 is_stmt 1 view .LVU147
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  512 00f2 638E     		ldrh	r3, [r4, #50]
  513 00f4 9BB2     		uxth	r3, r3
  273:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     {
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 32
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 32
 
 
  514              		.loc 1 273 37 view .LVU163
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  554 012a D8B9     		cbnz	r0, .L86
  289:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         hi2s->TxXferCount--;
  555              		.loc 1 289 9 is_stmt 1 view .LVU178
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 33
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 33
 
 
  289:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         hi2s->TxXferCount--;
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  296:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  595              		.loc 1 296 11 view .LVU194
  299:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         }
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 34
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 34
 
 
  596              		.loc 1 299 11 view .LVU195
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  637 0186 2B46     		mov	r3, r5
  638 0188 0A46     		mov	r2, r1
  639 018a 2046     		mov	r0, r4
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 35
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 35
 
 
  640 018c FFF7FEFF 		bl	I2SEx_FullDuplexWaitFlagStateUntilTimeout
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  320:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         {
  680              		.loc 1 320 12 discriminator 4 view .LVU223
  681 01be 11F0400F 		tst	r1, #64
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 36
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 36
 
 
  682 01c2 1DD0     		beq	.L72
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  313:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         }
  721              		.loc 1 313 18 is_stmt 0 view .LVU239
  722 01f2 C4E0     		b	.L35
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 37
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 37
 
 
  723              	.L88:
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  763 021c 013B     		subs	r3, r3, #1
  764 021e 9BB2     		uxth	r3, r3
  765 0220 6385     		strh	r3, [r4, #42]	@ movhi
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 38
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 38
 
 
  339:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  805              		.loc 1 349 7 view .LVU268
  806 025a 059B     		ldr	r3, [sp, #20]
  807 025c 0BE0     		b	.L62
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 39
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 39
 
 
  808              	.L90:
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  848              	.L92:
  357:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         {
  849              		.loc 1 357 9 is_stmt 1 view .LVU283
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 40
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 40
 
 
  357:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         {
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  372:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         {
  891              		.loc 1 372 14 discriminator 2 view .LVU297
  892 02be 4FF04021 		mov	r1, #1073758208
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 41
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 41
 
 
  893              	.L59:
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  933 02f6 00BF     		.align	2
  934              	.L99:
  935 02f8 00380040 		.word	1073756160
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 42
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 42
 
 
  936 02fc 00340040 		.word	1073755136
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  977 032c 2368     		ldr	r3, [r4]
  395:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         hi2s->RxXferCount--;
  978              		.loc 1 395 38 view .LVU325
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 43
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 43
 
 
  979 032e DB68     		ldr	r3, [r3, #12]
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1018 035c 6364     		str	r3, [r4, #68]
  395:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         hi2s->RxXferCount--;
  1019              		.loc 1 395 18 is_stmt 0 view .LVU341
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 44
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 44
 
 
  1020 035e 1746     		mov	r7, r2
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  225:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  1063              		.loc 1 225 3 discriminator 1 view .LVU353
  1064 0386 0226     		movs	r6, #2
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 45
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 45
 
 
  1065 0388 F9E7     		b	.L35
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  457:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  1110              		.loc 1 457 3 view .LVU365
  1111 0026 9CF84000 		ldrb	r0, [ip, #64]	@ zero_extendqisi2
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 46
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 46
 
 
  1112 002a 0128     		cmp	r0, #1
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  478:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     hi2s->RxXferCount = Size;
  1148              		.loc 1 478 23 is_stmt 0 view .LVU384
  1149 0058 ACF83030 		strh	r3, [ip, #48]	@ movhi
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 47
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 47
 
 
  479:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   }
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1185 0086 B3F5007F 		cmp	r3, #512
  1186 008a 01D0     		beq	.L106
  486:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   {
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 48
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 48
 
 
  1187              		.loc 1 486 47 discriminator 1 view .LVU404
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1227 00c6 013B     		subs	r3, r3, #1
  1228 00c8 9BB2     		uxth	r3, r3
  1229 00ca ACF82A30 		strh	r3, [ip, #42]	@ movhi
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 49
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 49
 
 
  498:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     {
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1270              	.L122:
  489:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  1271              		.loc 1 489 5 discriminator 1 view .LVU433
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 50
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 50
 
 
  1272 010e 234A     		ldr	r2, .L127+4
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1313              		.loc 1 513 33 discriminator 4 view .LVU446
  1314 014a D360     		str	r3, [r2, #12]
  514:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 51
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 51
 
 
  1315              		.loc 1 514 5 is_stmt 1 view .LVU447
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  519:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     }
  1357              		.loc 1 519 7 discriminator 1 view .LVU460
  1358 0186 054A     		ldr	r2, .L127+4
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 52
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 52
 
 
  1359 0188 F3E7     		b	.L112
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1409              		.cfi_def_cfa_offset 24
  1410 0004 1546     		mov	r5, r2
  553:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   uint32_t tmp1 = 0U;
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 53
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 53
 
 
  1411              		.loc 1 553 3 is_stmt 1 view .LVU467
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  571:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  1449              		.loc 1 571 20 is_stmt 0 view .LVU484
  1450 003a E562     		str	r5, [r4, #44]
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 54
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 54
 
 
  573:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   /* Check the Data format: When a 16-bit data frame or a 16-bit data frame extended
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1486              		.loc 1 580 23 view .LVU503
  1487 005a 2385     		strh	r3, [r4, #40]	@ movhi
  581:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     hi2s->RxXferSize  = (Size << 1U);
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 55
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 55
 
 
  1488              		.loc 1 581 5 is_stmt 1 view .LVU504
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1523              		.loc 1 603 7 is_stmt 0 view .LVU523
  1524 0078 E16B     		ldr	r1, [r4, #60]
  603:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 56
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 56
 
 
  1525              		.loc 1 603 35 view .LVU524
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1561              		.loc 1 620 5 view .LVU542
  620:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  1562              		.loc 1 620 14 is_stmt 0 view .LVU543
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 57
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 57
 
 
  1563 009c E06B     		ldr	r0, [r4, #60]
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1603 00ce 0C32     		adds	r2, r2, #12
  1604 00d0 3146     		mov	r1, r6
  1605 00d2 A06B     		ldr	r0, [r4, #56]
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 58
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 58
 
 
  1606 00d4 FFF7FEFF 		bl	HAL_DMA_Start_IT
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1647              	.L151:
  620:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  1648              		.loc 1 620 56 is_stmt 0 discriminator 1 view .LVU571
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 59
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 59
 
 
  1649 0110 2449     		ldr	r1, .L157+16
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1689 013c 2268     		ldr	r2, [r4]
  1690 013e 184B     		ldr	r3, .L157+12
  1691 0140 9A42     		cmp	r2, r3
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 60
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 60
 
 
  1692 0142 1DD0     		beq	.L156
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1733 0176 0193     		str	r3, [sp, #4]
  639:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     }
  1734              		.loc 1 639 7 view .LVU599
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 61
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 61
 
 
  1735 0178 019B     		ldr	r3, [sp, #4]
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1782              	.LFE136:
  1784              		.section	.text.HAL_I2SEx_TxRxHalfCpltCallback,"ax",%progbits
  1785              		.align	1
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 62
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 62
 
 
  1786              		.weak	HAL_I2SEx_TxRxHalfCpltCallback
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1834              		.cfi_endproc
  1835              	.LFE140:
  1837              		.section	.text.HAL_I2SEx_TxRxCpltCallback,"ax",%progbits
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 63
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 63
 
 
  1838              		.align	1
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  886:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   {
  1886              		.loc 1 886 6 view .LVU625
  1887 0008 F3B9     		cbnz	r3, .L164
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 64
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 64
 
 
  888:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****         ((hi2s->Instance->I2SCFGR & SPI_I2SCFGR_I2SCFG) == I2S_MODE_SLAVE_TX))
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  902:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  1927              		.loc 1 902 23 is_stmt 0 view .LVU641
  1928 0040 4385     		strh	r3, [r0, #42]	@ movhi
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 65
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 65
 
 
  904:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   }
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  1972              		.cfi_endproc
  1973              	.LFE141:
  1975              		.section	.text.I2SEx_TxISR_I2S,"ax",%progbits
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 66
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 66
 
 
  1976              		.align	1
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  954:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   {
  2018              		.loc 1 954 6 view .LVU666
  2019 001c 3BB9     		cbnz	r3, .L177
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 67
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 67
 
 
  957:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2065              		.cfi_def_cfa_offset 8
  2066              		.cfi_offset 3, -8
  2067              		.cfi_offset 14, -4
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 68
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 68
 
 
 1038:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   hi2s->RxXferCount--;
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2107              	.L184:
 1044:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  2108              		.loc 1 1044 5 discriminator 4 view .LVU693
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 69
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 69
 
 
  2109 0034 5368     		ldr	r3, [r2, #4]
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2153              		.thumb
  2154              		.thumb_func
  2156              	I2SEx_TxISR_I2SExt:
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 70
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 70
 
 
  2157              	.LVL121:
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2197 0022 438D     		ldrh	r3, [r0, #42]
  2198 0024 9BB2     		uxth	r3, r3
  983:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   {
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 71
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 71
 
 
  2199              		.loc 1 983 6 view .LVU719
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2240              	.LVL124:
  999:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  2241              		.loc 1 999 1 is_stmt 0 view .LVU733
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 72
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 72
 
 
  2242 0058 F3E7     		b	.L193
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2287 0012 013B     		subs	r3, r3, #1
  2288 0014 9BB2     		uxth	r3, r3
  2289 0016 4386     		strh	r3, [r0, #50]	@ movhi
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 73
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 73
 
 
 1012:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   {
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2334              	.LFB137:
  675:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****   __IO uint32_t i2ssr     = hi2s->Instance->SR;
  2335              		.loc 1 675 1 is_stmt 1 view -0
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 74
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 74
 
 
  2336              		.cfi_startproc
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2375 001e 5368     		ldr	r3, [r2, #4]
  679:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  2376              		.loc 1 679 17 discriminator 4 view .LVU773
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 75
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 75
 
 
  2377 0020 0293     		str	r3, [sp, #8]
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2415 004e 049B     		ldr	r3, [sp, #16]
  701:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     {
  2416              		.loc 1 701 8 view .LVU790
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 76
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 76
 
 
  2417 0050 13F0400F 		tst	r3, #64
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  713:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
  2458              		.loc 1 713 7 view .LVU804
  713:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 77
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 77
 
 
  2459              		.loc 1 713 19 is_stmt 0 view .LVU805
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2500              		.loc 1 735 7 is_stmt 1 view .LVU818
  2501              	.LBB11:
  735:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c **** 
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 78
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 78
 
 
  2502              		.loc 1 735 7 view .LVU819
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2545 00fa FFF7FEFF 		bl	I2SEx_TxISR_I2S
  2546              	.LVL135:
  2547 00fe 9EE7     		b	.L213
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 79
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 79
 
 
  2548              	.L232:
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  770:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     {
  2589              		.loc 1 770 5 is_stmt 1 view .LVU844
  770:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     {
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 80
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 80
 
 
  2590              		.loc 1 770 17 is_stmt 0 view .LVU845
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2631              		.loc 1 792 5 view .LVU858
  792:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     {
  2632              		.loc 1 792 20 is_stmt 0 view .LVU859
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 81
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 81
 
 
  2633 0172 049B     		ldr	r3, [sp, #16]
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2674              	.LVL141:
  2675              	.L235:
  758:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c ****     }
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 82
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 82
 
 
  2676              		.loc 1 758 7 is_stmt 1 view .LVU873
@@ -4903,49 +4903,49 @@ ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 1
  2712              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
  2713              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h"
  2714              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s 			page 83
+ARM GAS  /var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s 			page 83
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_hal_i2s_ex.c
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:21     .text.I2SEx_FullDuplexWaitFlagStateUntilTimeout:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:26     .text.I2SEx_FullDuplexWaitFlagStateUntilTimeout:00000000 I2SEx_FullDuplexWaitFlagStateUntilTimeout
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:197    .text.I2SEx_FullDuplexWaitFlagStateUntilTimeout:000000ac $d
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:202    .text.I2SEx_TxRxDMAError:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:207    .text.I2SEx_TxRxDMAError:00000000 I2SEx_TxRxDMAError
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:270    .text.I2SEx_TxRxDMAError:00000040 $d
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:276    .text.HAL_I2SEx_TransmitReceive:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:282    .text.HAL_I2SEx_TransmitReceive:00000000 HAL_I2SEx_TransmitReceive
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:935    .text.HAL_I2SEx_TransmitReceive:000002f8 $d
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:941    .text.HAL_I2SEx_TransmitReceive:00000300 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1070   .text.HAL_I2SEx_TransmitReceive_IT:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1076   .text.HAL_I2SEx_TransmitReceive_IT:00000000 HAL_I2SEx_TransmitReceive_IT
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1380   .text.HAL_I2SEx_TransmitReceive_IT:00000198 $d
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1386   .text.HAL_I2SEx_TransmitReceive_DMA:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1392   .text.HAL_I2SEx_TransmitReceive_DMA:00000000 HAL_I2SEx_TransmitReceive_DMA
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1776   .text.HAL_I2SEx_TransmitReceive_DMA:00000194 $d
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1811   .text.I2SEx_TxRxDMAHalfCplt:00000000 I2SEx_TxRxDMAHalfCplt
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1864   .text.I2SEx_TxRxDMACplt:00000000 I2SEx_TxRxDMACplt
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1785   .text.HAL_I2SEx_TxRxHalfCpltCallback:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1791   .text.HAL_I2SEx_TxRxHalfCpltCallback:00000000 HAL_I2SEx_TxRxHalfCpltCallback
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1806   .text.I2SEx_TxRxDMAHalfCplt:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1838   .text.HAL_I2SEx_TxRxCpltCallback:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1844   .text.HAL_I2SEx_TxRxCpltCallback:00000000 HAL_I2SEx_TxRxCpltCallback
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1859   .text.I2SEx_TxRxDMACplt:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1970   .text.I2SEx_TxRxDMACplt:00000074 $d
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1976   .text.I2SEx_TxISR_I2S:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:1981   .text.I2SEx_TxISR_I2S:00000000 I2SEx_TxISR_I2S
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2050   .text.I2SEx_RxISR_I2SExt:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2055   .text.I2SEx_RxISR_I2SExt:00000000 I2SEx_RxISR_I2SExt
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2145   .text.I2SEx_RxISR_I2SExt:0000005c $d
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2151   .text.I2SEx_TxISR_I2SExt:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2156   .text.I2SEx_TxISR_I2SExt:00000000 I2SEx_TxISR_I2SExt
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2246   .text.I2SEx_TxISR_I2SExt:0000005c $d
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2252   .text.I2SEx_RxISR_I2S:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2257   .text.I2SEx_RxISR_I2S:00000000 I2SEx_RxISR_I2S
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2326   .text.HAL_I2SEx_FullDuplex_IRQHandler:00000000 $t
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2332   .text.HAL_I2SEx_FullDuplex_IRQHandler:00000000 HAL_I2SEx_FullDuplex_IRQHandler
-/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//ccAUVWhT.s:2700   .text.HAL_I2SEx_FullDuplex_IRQHandler:000001d0 $d
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:21     .text.I2SEx_FullDuplexWaitFlagStateUntilTimeout:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:26     .text.I2SEx_FullDuplexWaitFlagStateUntilTimeout:00000000 I2SEx_FullDuplexWaitFlagStateUntilTimeout
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:197    .text.I2SEx_FullDuplexWaitFlagStateUntilTimeout:000000ac $d
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:202    .text.I2SEx_TxRxDMAError:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:207    .text.I2SEx_TxRxDMAError:00000000 I2SEx_TxRxDMAError
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:270    .text.I2SEx_TxRxDMAError:00000040 $d
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:276    .text.HAL_I2SEx_TransmitReceive:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:282    .text.HAL_I2SEx_TransmitReceive:00000000 HAL_I2SEx_TransmitReceive
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:935    .text.HAL_I2SEx_TransmitReceive:000002f8 $d
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:941    .text.HAL_I2SEx_TransmitReceive:00000300 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1070   .text.HAL_I2SEx_TransmitReceive_IT:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1076   .text.HAL_I2SEx_TransmitReceive_IT:00000000 HAL_I2SEx_TransmitReceive_IT
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1380   .text.HAL_I2SEx_TransmitReceive_IT:00000198 $d
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1386   .text.HAL_I2SEx_TransmitReceive_DMA:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1392   .text.HAL_I2SEx_TransmitReceive_DMA:00000000 HAL_I2SEx_TransmitReceive_DMA
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1776   .text.HAL_I2SEx_TransmitReceive_DMA:00000194 $d
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1811   .text.I2SEx_TxRxDMAHalfCplt:00000000 I2SEx_TxRxDMAHalfCplt
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1864   .text.I2SEx_TxRxDMACplt:00000000 I2SEx_TxRxDMACplt
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1785   .text.HAL_I2SEx_TxRxHalfCpltCallback:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1791   .text.HAL_I2SEx_TxRxHalfCpltCallback:00000000 HAL_I2SEx_TxRxHalfCpltCallback
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1806   .text.I2SEx_TxRxDMAHalfCplt:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1838   .text.HAL_I2SEx_TxRxCpltCallback:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1844   .text.HAL_I2SEx_TxRxCpltCallback:00000000 HAL_I2SEx_TxRxCpltCallback
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1859   .text.I2SEx_TxRxDMACplt:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1970   .text.I2SEx_TxRxDMACplt:00000074 $d
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1976   .text.I2SEx_TxISR_I2S:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:1981   .text.I2SEx_TxISR_I2S:00000000 I2SEx_TxISR_I2S
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2050   .text.I2SEx_RxISR_I2SExt:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2055   .text.I2SEx_RxISR_I2SExt:00000000 I2SEx_RxISR_I2SExt
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2145   .text.I2SEx_RxISR_I2SExt:0000005c $d
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2151   .text.I2SEx_TxISR_I2SExt:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2156   .text.I2SEx_TxISR_I2SExt:00000000 I2SEx_TxISR_I2SExt
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2246   .text.I2SEx_TxISR_I2SExt:0000005c $d
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2252   .text.I2SEx_RxISR_I2S:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2257   .text.I2SEx_RxISR_I2S:00000000 I2SEx_RxISR_I2S
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2326   .text.HAL_I2SEx_FullDuplex_IRQHandler:00000000 $t
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2332   .text.HAL_I2SEx_FullDuplex_IRQHandler:00000000 HAL_I2SEx_FullDuplex_IRQHandler
+/var/folders/dl/f1tfj3vx6kx2nj5pcct47lg00000gn/T//cc0Q4fi4.s:2700   .text.HAL_I2SEx_FullDuplex_IRQHandler:000001d0 $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick

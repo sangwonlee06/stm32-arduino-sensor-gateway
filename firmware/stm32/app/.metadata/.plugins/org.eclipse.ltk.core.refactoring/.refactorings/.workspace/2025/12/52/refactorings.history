@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;iot/Core/Src/iot/drv&apos;" deleteContents="false" description="Delete resource &apos;iot/Core/Src/iot/drv&apos;" element1="/iot/Core/Src/iot/drv" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1766841358485"/>
+</session>
