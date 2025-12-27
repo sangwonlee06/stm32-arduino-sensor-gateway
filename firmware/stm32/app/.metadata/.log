@@ -153,3 +153,6 @@ java.lang.Exception: The project description file (.project) for 'iot' is missin
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-27 05:39:46.032
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-27 05:43:50.439
+!MESSAGE Indexed 'iot_project' (34 sources, 100 headers) in 9.26 sec: 7,849 declarations; 50,115 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0035%)

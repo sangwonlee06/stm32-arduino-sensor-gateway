@@ -2136,3 +2136,229 @@
 2025-12-27 05:43:43,275 [INFO] ApiDb:452 - User favorites MCUs=[]
 2025-12-27 05:43:43,307 [INFO] ApiDb:448 - Save user favorites file /Users/sangwonlee/.stm32cubeide/favorites.boards.txt: 0 item(s)
 2025-12-27 05:43:43,307 [INFO] ApiDb:452 - User favorites Boards=[]
+2025-12-27 05:44:49,434 [INFO] RtosManager:1018 - Current active RTOS is FREERTOS [Cortex-M4NS]
+2025-12-27 05:44:49,681 [WARN] BspModel:444 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2025-12-27 05:44:50,045 [WARN] BspModel:444 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2025-12-27 05:44:50,188 [WARN] FreeRTOS:563 - Case being investigated as it may cause exception (when called to early by set config state
+2025-12-27 05:44:50,286 [WARN] BspModel:444 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2025-12-27 05:44:50,603 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-12-27 05:44:50,722 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-12-27 05:45:16,628 [WARN] BspModel:444 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2025-12-27 05:45:16,905 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2025-12-27 05:45:56,978 [WARN] BspModel:444 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2025-12-27 05:46:09,821 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 885706464 Bytes (1073741824)
+2025-12-27 05:46:11,805 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 999224376 Bytes (1073741824)
+2025-12-27 05:46:15,672 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 738607472 Bytes (1073741824)
+2025-12-27 05:46:17,864 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-12-27 05:46:17,876 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: FREERTOS
+2025-12-27 05:46:17,879 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2S
+2025-12-27 05:46:17,880 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-12-27 05:46:17,880 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-12-27 05:46:17,880 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-12-27 05:46:17,880 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_OTG_FS
+2025-12-27 05:46:17,880 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-12-27 05:46:17,880 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_HOST
+2025-12-27 05:46:17,880 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-12-27 05:46:17,882 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2025-12-27 05:46:17,921 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-12-27 05:46:17,922 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-12-27 05:46:18,200 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/license.tmp_save
+2025-12-27 05:46:18,372 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/license.tmp
+2025-12-27 05:46:18,499 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/gpio.tmp_save
+2025-12-27 05:46:18,644 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/gpio.tmp
+2025-12-27 05:46:18,782 [WARN] IPConfigManager:3238 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2025-12-27 05:46:18,811 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2025-12-27 05:46:18,873 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_vars.tmp
+2025-12-27 05:46:18,875 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2025-12-27 05:46:18,939 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_inc.tmp
+2025-12-27 05:46:18,941 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2025-12-27 05:46:19,015 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2025-12-27 05:46:19,017 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2025-12-27 05:46:19,103 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_Msp.tmp
+2025-12-27 05:46:19,466 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-12-27 05:46:19,475 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_inc.tmp_save
+2025-12-27 05:46:19,540 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_inc.tmp
+2025-12-27 05:46:19,542 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelInit.tmp_save
+2025-12-27 05:46:19,635 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelInit.tmp
+2025-12-27 05:46:19,637 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelStart.tmp_save
+2025-12-27 05:46:19,704 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelStart.tmp
+2025-12-27 05:46:19,706 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_typedefs.tmp_save
+2025-12-27 05:46:19,767 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_typedefs.tmp
+2025-12-27 05:46:19,770 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_vars.tmp_save
+2025-12-27 05:46:19,831 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_vars.tmp
+2025-12-27 05:46:19,832 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_pfp.tmp_save
+2025-12-27 05:46:19,888 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_pfp.tmp
+2025-12-27 05:46:19,890 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_obj_creat.tmp_save
+2025-12-27 05:46:19,950 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_obj_creat.tmp
+2025-12-27 05:46:19,952 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_default_thread.tmp_save
+2025-12-27 05:46:20,008 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_default_thread.tmp
+2025-12-27 05:46:20,011 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_threads.tmp_save
+2025-12-27 05:46:20,063 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_threads.tmp
+2025-12-27 05:46:20,108 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-12-27 05:46:20,114 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_inc.tmp_save
+2025-12-27 05:46:20,168 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_inc.tmp
+2025-12-27 05:46:20,171 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelInit.tmp_save
+2025-12-27 05:46:20,227 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelInit.tmp
+2025-12-27 05:46:20,228 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelStart.tmp_save
+2025-12-27 05:46:20,280 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelStart.tmp
+2025-12-27 05:46:20,283 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_typedefs.tmp_save
+2025-12-27 05:46:20,348 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_typedefs.tmp
+2025-12-27 05:46:20,350 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_vars.tmp_save
+2025-12-27 05:46:20,407 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_vars.tmp
+2025-12-27 05:46:20,410 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_pfp.tmp_save
+2025-12-27 05:46:20,468 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_pfp.tmp
+2025-12-27 05:46:20,471 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_obj_creat.tmp_save
+2025-12-27 05:46:20,534 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_obj_creat.tmp
+2025-12-27 05:46:20,537 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_default_thread.tmp_save
+2025-12-27 05:46:20,594 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_default_thread.tmp
+2025-12-27 05:46:20,597 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_threads.tmp_save
+2025-12-27 05:46:20,654 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_threads.tmp
+2025-12-27 05:46:20,657 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/FreeRTOSConfig.h_save
+2025-12-27 05:46:20,733 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/FreeRTOSConfig.h
+2025-12-27 05:46:20,735 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/freertos.c_save
+2025-12-27 05:46:20,803 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/freertos.c
+2025-12-27 05:46:20,824 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/App/usb_host.c_save
+2025-12-27 05:46:20,907 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/App/usb_host.c
+2025-12-27 05:46:20,910 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/App/usb_host.h_save
+2025-12-27 05:46:20,970 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/App/usb_host.h
+2025-12-27 05:46:20,973 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_conf.h_save
+2025-12-27 05:46:21,029 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_conf.h
+2025-12-27 05:46:21,031 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_conf.c_save
+2025-12-27 05:46:21,099 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_conf.c
+2025-12-27 05:46:21,104 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_platform.c_save
+2025-12-27 05:46:21,156 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_platform.c
+2025-12-27 05:46:21,158 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_platform.h_save
+2025-12-27 05:46:21,233 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_platform.h
+2025-12-27 05:46:21,247 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_it.c_save
+2025-12-27 05:46:21,332 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_it.c
+2025-12-27 05:46:21,336 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/stm32f4xx_it.h_save
+2025-12-27 05:46:21,388 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/stm32f4xx_it.h
+2025-12-27 05:46:21,428 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_hal_msp.c_save
+2025-12-27 05:46:21,535 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_hal_msp.c
+2025-12-27 05:46:21,537 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/system.tmp_save
+2025-12-27 05:46:21,587 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/system.tmp
+2025-12-27 05:46:21,589 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_hal_timebase_tim.c_save
+2025-12-27 05:46:21,654 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_hal_timebase_tim.c
+2025-12-27 05:46:21,663 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/stm32f4xx_hal_conf.h_save
+2025-12-27 05:46:21,723 [INFO] CodeEngine:345 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/stm32f4xx_hal_conf.h
+2025-12-27 05:46:21,826 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/main.h_save
+2025-12-27 05:46:21,885 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/main.h
+2025-12-27 05:46:21,887 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/main.c_save
+2025-12-27 05:46:22,020 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/main.c
+2025-12-27 05:46:23,021 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 128mS.
+2025-12-27 05:46:23,071 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-12-27 05:46:23,237 [INFO] ConfigFileManager:1595 - The Die is : DIE413
+2025-12-27 05:46:26,036 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 2964mS.
+2025-12-27 05:46:26,038 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2025-12-27 05:46:26,045 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-12-27 05:46:55,493 [WARN] BspModel:444 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2025-12-27 05:46:56,089 [WARN] BspModel:444 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2025-12-27 05:47:00,749 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x362,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-12-27 05:47:03,652 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-12-27 05:47:50,600 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 836752752 Bytes (1073741824)
+2025-12-27 05:47:52,703 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 863059144 Bytes (1073741824)
+2025-12-27 05:47:54,892 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 902290800 Bytes (1073741824)
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SPI
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: FREERTOS
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2S
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: I2C
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_OTG_FS
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_HOST
+2025-12-27 05:47:55,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-12-27 05:47:55,769 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-12-27 05:47:55,770 [INFO] CodeGenerator:892 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2025-12-27 05:47:55,797 [WARN] IP:2250 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-12-27 05:47:55,797 [WARN] IP:2250 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-12-27 05:47:55,998 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/license.tmp_save
+2025-12-27 05:47:56,169 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/license.tmp
+2025-12-27 05:47:56,269 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/gpio.tmp_save
+2025-12-27 05:47:56,420 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/gpio.tmp
+2025-12-27 05:47:56,534 [WARN] IPConfigManager:3238 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2025-12-27 05:47:56,558 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2025-12-27 05:47:56,634 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_vars.tmp
+2025-12-27 05:47:56,638 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2025-12-27 05:47:56,738 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_inc.tmp
+2025-12-27 05:47:56,740 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2025-12-27 05:47:56,839 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2025-12-27 05:47:56,844 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2025-12-27 05:47:56,942 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/usb_otg_fs_Msp.tmp
+2025-12-27 05:47:57,553 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-12-27 05:47:57,558 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_inc.tmp_save
+2025-12-27 05:47:57,631 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_inc.tmp
+2025-12-27 05:47:57,634 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelInit.tmp_save
+2025-12-27 05:47:57,692 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelInit.tmp
+2025-12-27 05:47:57,695 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelStart.tmp_save
+2025-12-27 05:47:57,747 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelStart.tmp
+2025-12-27 05:47:57,749 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_typedefs.tmp_save
+2025-12-27 05:47:57,803 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_typedefs.tmp
+2025-12-27 05:47:57,805 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_vars.tmp_save
+2025-12-27 05:47:57,856 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_vars.tmp
+2025-12-27 05:47:57,859 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_pfp.tmp_save
+2025-12-27 05:47:57,912 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_pfp.tmp
+2025-12-27 05:47:57,914 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_obj_creat.tmp_save
+2025-12-27 05:47:57,972 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_obj_creat.tmp
+2025-12-27 05:47:57,974 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_default_thread.tmp_save
+2025-12-27 05:47:58,024 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_default_thread.tmp
+2025-12-27 05:47:58,026 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_threads.tmp_save
+2025-12-27 05:47:58,173 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_threads.tmp
+2025-12-27 05:47:58,193 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-12-27 05:47:58,197 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_inc.tmp_save
+2025-12-27 05:47:58,259 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_inc.tmp
+2025-12-27 05:47:58,262 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelInit.tmp_save
+2025-12-27 05:47:58,321 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelInit.tmp
+2025-12-27 05:47:58,323 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelStart.tmp_save
+2025-12-27 05:47:58,380 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_kernelStart.tmp
+2025-12-27 05:47:58,383 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_typedefs.tmp_save
+2025-12-27 05:47:58,439 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_typedefs.tmp
+2025-12-27 05:47:58,441 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_vars.tmp_save
+2025-12-27 05:47:58,502 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_vars.tmp
+2025-12-27 05:47:58,504 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_pfp.tmp_save
+2025-12-27 05:47:58,569 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_pfp.tmp
+2025-12-27 05:47:58,571 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_obj_creat.tmp_save
+2025-12-27 05:47:58,634 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_obj_creat.tmp
+2025-12-27 05:47:58,636 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_default_thread.tmp_save
+2025-12-27 05:47:58,696 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_default_thread.tmp
+2025-12-27 05:47:58,699 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_threads.tmp_save
+2025-12-27 05:47:58,753 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/rtos_threads.tmp
+2025-12-27 05:47:58,756 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/FreeRTOSConfig.h_save
+2025-12-27 05:47:58,828 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/FreeRTOSConfig.h
+2025-12-27 05:47:58,831 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/freertos.c_save
+2025-12-27 05:47:58,890 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/freertos.c
+2025-12-27 05:47:58,927 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/App/usb_host.c_save
+2025-12-27 05:47:59,010 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/App/usb_host.c
+2025-12-27 05:47:59,012 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/App/usb_host.h_save
+2025-12-27 05:47:59,084 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/App/usb_host.h
+2025-12-27 05:47:59,086 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_conf.h_save
+2025-12-27 05:47:59,152 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_conf.h
+2025-12-27 05:47:59,154 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_conf.c_save
+2025-12-27 05:47:59,216 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_conf.c
+2025-12-27 05:47:59,218 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_platform.c_save
+2025-12-27 05:47:59,280 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_platform.c
+2025-12-27 05:47:59,282 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_platform.h_save
+2025-12-27 05:47:59,350 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/USB_HOST/Target/usbh_platform.h
+2025-12-27 05:47:59,364 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_it.c_save
+2025-12-27 05:47:59,454 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_it.c
+2025-12-27 05:47:59,456 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/stm32f4xx_it.h_save
+2025-12-27 05:47:59,751 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/stm32f4xx_it.h
+2025-12-27 05:47:59,947 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_hal_msp.c_save
+2025-12-27 05:48:00,523 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_hal_msp.c
+2025-12-27 05:48:00,590 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/system.tmp_save
+2025-12-27 05:48:00,659 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/MXTmpFiles/system.tmp
+2025-12-27 05:48:00,673 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_hal_timebase_tim.c_save
+2025-12-27 05:48:00,746 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/stm32f4xx_hal_timebase_tim.c
+2025-12-27 05:48:00,779 [INFO] CodeEngine:321 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/stm32f4xx_hal_conf.h_save
+2025-12-27 05:48:00,849 [INFO] CodeEngine:345 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/stm32f4xx_hal_conf.h
+2025-12-27 05:48:01,121 [INFO] ApiDbMcu:532 - Load IP Config File for USART3
+2025-12-27 05:48:01,164 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/main.h_save
+2025-12-27 05:48:01,229 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Inc/main.h
+2025-12-27 05:48:01,231 [INFO] CodeEngine:265 - oldGeneratedFile, /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/main.c_save
+2025-12-27 05:48:01,354 [INFO] CodeEngine:289 - Generated code: /Users/sangwonlee/Practice/stm32-arduino-sensor-gateway/firmware/stm32/app/iot_project/Core/Src/main.c
+2025-12-27 05:48:01,840 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 138mS.
+2025-12-27 05:48:01,851 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-12-27 05:48:02,072 [INFO] ConfigFileManager:1595 - The Die is : DIE413
+2025-12-27 05:48:05,065 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 3213mS.
+2025-12-27 05:48:05,069 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2025-12-27 05:48:05,071 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
