@@ -1,0 +1,11 @@
+../Core/Src/util/byte_queue.c:18:17:ByteQueue_Create	4
+../Core/Src/util/byte_queue.c:54:8:ByteQueue_Count	1
+../Core/Src/util/byte_queue.c:65:6:ByteQueue_Destroy	2
+../Core/Src/util/byte_queue.c:77:6:ByteQueue_Clear	2
+../Core/Src/util/byte_queue.c:94:17:ByteQueue_Write	5
+../Core/Src/util/byte_queue.c:139:17:ByteQueue_WriteFromISR	5
+../Core/Src/util/byte_queue.c:183:5:ByteQueue_Read	6
+../Core/Src/util/byte_queue.c:227:5:ByteQueue_Peek	5
+../Core/Src/util/byte_queue.c:263:17:ByteQueue_Consume	2
+../Core/Src/util/byte_queue.c:282:5:ByteQueue_ReadMax	5
+../Core/Src/util/byte_queue.c:326:5:ByteQueue_PeekMax	4

@@ -5,13 +5,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Core/Src/util/util_queue.c 
+../Core/Src/util/byte_queue.c 
 
 OBJS += \
-./Core/Src/util/util_queue.o 
+./Core/Src/util/byte_queue.o 
 
 C_DEPS += \
-./Core/Src/util/util_queue.d 
+./Core/Src/util/byte_queue.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +21,7 @@ Core/Src/util/%.o Core/Src/util/%.su Core/Src/util/%.cyclo: ../Core/Src/util/%.c
 clean: clean-Core-2f-Src-2f-util
 
 clean-Core-2f-Src-2f-util:
-	-$(RM) ./Core/Src/util/util_queue.cyclo ./Core/Src/util/util_queue.d ./Core/Src/util/util_queue.o ./Core/Src/util/util_queue.su
+	-$(RM) ./Core/Src/util/byte_queue.cyclo ./Core/Src/util/byte_queue.d ./Core/Src/util/byte_queue.o ./Core/Src/util/byte_queue.su
 
 .PHONY: clean-Core-2f-Src-2f-util
 

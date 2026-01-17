@@ -1,7 +1,7 @@
 //
 // Created by Sangwon Lee on 12/27/25.
 //
-#include "util_queue.h"
+#include "byte_queue.h"
 
 int Drv_Uart_Init()
 {
