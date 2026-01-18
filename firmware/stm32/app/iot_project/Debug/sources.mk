@@ -24,6 +24,7 @@ C_DEPS :=
 SUBDIRS := \
 Core/Src/drv \
 Core/Src \
+Core/Src/iot \
 Core/Src/util \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
