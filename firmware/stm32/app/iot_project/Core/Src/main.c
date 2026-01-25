@@ -24,6 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "drv_uart.h"
+#include "iot_proc.h"
 
 /* USER CODE END Includes */
 
@@ -114,6 +115,8 @@ int main(void)
   MX_SPI1_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
+  Drv_Uart_Init(&huart3);
+  iot_proc_Init();
 
   /* USER CODE END 2 */
 

@@ -49,9 +49,9 @@ size_t ByteQueue_Count(ByteQueueId id)
 {
     size_t count;
 
-    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
+//    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
     count = g_byteQueues[id].count;
-    xSemaphoreGive(g_byteQueues[id].mutex);
+//    xSemaphoreGive(g_byteQueues[id].mutex);
 
     return count;
 }
@@ -76,13 +76,13 @@ void ByteQueue_Clear(ByteQueueId id)
         return;
     }
 
-    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
+//    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
 
     g_byteQueues[id].count = 0;
     g_byteQueues[id].head = 0;
     g_byteQueues[id].tail = 0;
 
-    xSemaphoreGive(g_byteQueues[id].mutex);
+//    xSemaphoreGive(g_byteQueues[id].mutex);
 }
 
 ByteQueueStatus ByteQueue_Write(ByteQueueId id,
@@ -98,7 +98,7 @@ ByteQueueStatus ByteQueue_Write(ByteQueueId id,
         return BYTE_QUEUE_MALLOC_FAIL;
     }
 
-    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
+//    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
 
     if (g_byteQueues[id].count + len > g_byteQueues[id].capacity)
     {
@@ -126,7 +126,7 @@ ByteQueueStatus ByteQueue_Write(ByteQueueId id,
         g_byteQueues[id].count += len;
     }
 
-    xSemaphoreGive(g_byteQueues[id].mutex);
+//    xSemaphoreGive(g_byteQueues[id].mutex);
     return ret;
 }
 
@@ -184,7 +184,7 @@ int ByteQueue_Read(ByteQueueId id,
     if (g_byteQueues[id].buffer == NULL)
         return BYTE_QUEUE_MALLOC_FAIL;
 
-    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
+//    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
 
     if (g_byteQueues[id].count < len)
     {
@@ -214,7 +214,7 @@ int ByteQueue_Read(ByteQueueId id,
         g_byteQueues[id].count -= len;
     }
 
-    xSemaphoreGive(g_byteQueues[id].mutex);
+//    xSemaphoreGive(g_byteQueues[id].mutex);
     return ret == BYTE_QUEUE_OK ? (int)len : ret;
 }
 
@@ -228,7 +228,7 @@ int ByteQueue_Peek(ByteQueueId id,
     if (g_byteQueues[id].buffer == NULL)
         return BYTE_QUEUE_MALLOC_FAIL;
 
-    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
+//    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
 
     if (g_byteQueues[id].count < len)
     {
@@ -250,18 +250,18 @@ int ByteQueue_Peek(ByteQueueId id,
         }
     }
 
-    xSemaphoreGive(g_byteQueues[id].mutex);
+//    xSemaphoreGive(g_byteQueues[id].mutex);
     return ret == BYTE_QUEUE_OK ? (int)len : ret;
 }
 
 ByteQueueStatus ByteQueue_Consume(ByteQueueId id,
                                   size_t len)
 {
-    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
+//    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
 
     if (len > g_byteQueues[id].count)
     {
-        xSemaphoreGive(g_byteQueues[id].mutex);
+//        xSemaphoreGive(g_byteQueues[id].mutex);
         return BYTE_QUEUE_UNDERFLOW;
     }
 
@@ -269,7 +269,7 @@ ByteQueueStatus ByteQueue_Consume(ByteQueueId id,
             (g_byteQueues[id].head + len) % g_byteQueues[id].capacity;
     g_byteQueues[id].count -= len;
 
-    xSemaphoreGive(g_byteQueues[id].mutex);
+//    xSemaphoreGive(g_byteQueues[id].mutex);
     return BYTE_QUEUE_OK;
 }
 
@@ -286,7 +286,7 @@ int ByteQueue_ReadMax(ByteQueueId id,
     if (g_byteQueues[id].count == 0)
         return BYTE_QUEUE_EMPTY;
 
-    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
+//    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
 
     read_len = (g_byteQueues[id].count < max_len)
                ? g_byteQueues[id].count
@@ -313,7 +313,7 @@ int ByteQueue_ReadMax(ByteQueueId id,
 
     g_byteQueues[id].count -= read_len;
 
-    xSemaphoreGive(g_byteQueues[id].mutex);
+//    xSemaphoreGive(g_byteQueues[id].mutex);
     return read_len;
 }
 
@@ -330,7 +330,7 @@ int ByteQueue_PeekMax(ByteQueueId id,
     if (g_byteQueues[id].count == 0)
         return BYTE_QUEUE_EMPTY;
 
-    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
+//    xSemaphoreTake(g_byteQueues[id].mutex, portMAX_DELAY);
 
     peek_len = (g_byteQueues[id].count < max_len)
                ? g_byteQueues[id].count
@@ -349,6 +349,6 @@ int ByteQueue_PeekMax(ByteQueueId id,
                peek_len - split);
     }
 
-    xSemaphoreGive(g_byteQueues[id].mutex);
+//    xSemaphoreGive(g_byteQueues[id].mutex);
     return peek_len;
 }

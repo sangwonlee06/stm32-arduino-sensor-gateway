@@ -115,6 +115,7 @@ static void iot_proc_MainTask(void *pvParm)
 
 void iot_proc_Init(void)
 {
+
     BaseType_t iRet;
 
     iRet = xTaskCreate(iot_proc_MainTask,
@@ -128,4 +129,10 @@ void iot_proc_Init(void)
     {
         printf("%s : process task create fail\r\n", __func__);
     }
+
+    // to do 원래 drv_uart에서 한바이트씩 넣어야 하는데,
+    // // write 함수를 사용해서 parsing 함수가 정상적으로 작동하는지 검사하기 위해서 enqueu를 할 것이다.
+
+
+    ByteQueue_Write()
 }
