@@ -1,3 +1,3 @@
-../Core/Src/iot/iot_proc.c:18:13:iot_proc_ReplySensorData	1
-../Core/Src/iot/iot_proc.c:24:13:iot_proc_MainTask	9
-../Core/Src/iot/iot_proc.c:116:6:iot_proc_Init	2
+../Core/Src/iot/iot_proc.c:21:13:iot_proc_ReplySensorData	1
+../Core/Src/iot/iot_proc.c:30:13:iot_proc_MainTask	9
+../Core/Src/iot/iot_proc.c:125:6:iot_proc_Init	2

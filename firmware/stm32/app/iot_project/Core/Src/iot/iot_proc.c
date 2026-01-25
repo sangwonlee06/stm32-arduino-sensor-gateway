@@ -1,3 +1,5 @@
+/* iot_proc.c */
+
 /* INCLUDE */
 #include <string.h>
 #include <stdio.h>
@@ -6,7 +8,8 @@
 #include "task.h"
 
 #include "byte_queue.h"
-#include "util_proto.h"   // <-- needed for t_Protocol, HEADER_SIZE, TAIL_SIZE, START_CODE, END_CODE, util_proto_Parsing
+#include "util_proto.h"   /* t_Protocol, HEADER_SIZE, TAIL_SIZE, START_CODE, END_CODE,
+                             util_proto_Parsing, util_proto_MakePacket, CMD_REPLY_SENSOR_DATA */
 
 /* DEFINEs */
 #define DEQUEUE_BUFFER_SIZE 1024
@@ -14,13 +17,16 @@
 /* GLOBAL VARIABLES */
 static unsigned char gauc_DequeueBuffer[DEQUEUE_BUFFER_SIZE];
 
-/* FUNCTIONS */
+/* LOCAL FUNCTIONS */
 static void iot_proc_ReplySensorData(t_Protocol *pst_Protocol)
 {
+    /* Example: pst_Protocol->ucData points to payload, pst_Protocol->usLength is payload length */
     (void)pst_Protocol;
-    // todo: handle received sensor data
+
+    /* todo: handle received sensor data */
 }
 
+/* TASK */
 static void iot_proc_MainTask(void *pvParm)
 {
     (void)pvParm;
@@ -34,14 +40,14 @@ static void iot_proc_MainTask(void *pvParm)
         uiQueueCnt = ByteQueue_Count(BYTE_QUEUE_UART_ARD);
 
         /* Need at least header + tail */
-        if (uiQueueCnt < (HEADER_SIZE + TAIL_SIZE))
+        if (uiQueueCnt < (size_t)(HEADER_SIZE + TAIL_SIZE))
         {
             vTaskDelay(pdMS_TO_TICKS(1));
             continue;
         }
 
         /* Peek header (do not consume yet) */
-        if (ByteQueue_Peek(BYTE_QUEUE_UART_ARD, gauc_DequeueBuffer, HEADER_SIZE) < 0)
+        if (ByteQueue_Peek(BYTE_QUEUE_UART_ARD, gauc_DequeueBuffer, (size_t)HEADER_SIZE) < 0)
         {
             vTaskDelay(pdMS_TO_TICKS(1));
             continue;
@@ -62,60 +68,62 @@ static void iot_proc_MainTask(void *pvParm)
         );
 
         /* Full frame size = header + payload + tail */
-        size_t frame_len = (size_t)HEADER_SIZE + (size_t)usDataLength + (size_t)TAIL_SIZE;
-
-        /* Ensure our local buffer can hold it */
-        if (frame_len > DEQUEUE_BUFFER_SIZE)
         {
-            /* Packet claims absurd length; drop start byte and resync */
-            (void)ByteQueue_Consume(BYTE_QUEUE_UART_ARD, 1);
-            continue;
-        }
+            size_t frame_len = (size_t)HEADER_SIZE + (size_t)usDataLength + (size_t)TAIL_SIZE;
 
-        /* Wait until full packet is available */
-        uiQueueCnt = ByteQueue_Count(BYTE_QUEUE_UART_ARD);
-        if (uiQueueCnt < frame_len)
-        {
-            vTaskDelay(pdMS_TO_TICKS(1));
-            continue;
-        }
+            /* Ensure our local buffer can hold it */
+            if (frame_len > (size_t)DEQUEUE_BUFFER_SIZE)
+            {
+                /* Packet claims absurd length; drop start byte and resync */
+                (void)ByteQueue_Consume(BYTE_QUEUE_UART_ARD, 1);
+                continue;
+            }
 
-        /* Peek entire frame */
-        if (ByteQueue_Peek(BYTE_QUEUE_UART_ARD, gauc_DequeueBuffer, frame_len) < 0)
-        {
-            vTaskDelay(pdMS_TO_TICKS(1));
-            continue;
-        }
+            /* Wait until full packet is available */
+            uiQueueCnt = ByteQueue_Count(BYTE_QUEUE_UART_ARD);
+            if (uiQueueCnt < frame_len)
+            {
+                vTaskDelay(pdMS_TO_TICKS(1));
+                continue;
+            }
 
-        /* Validate end code before consuming */
-        if (gauc_DequeueBuffer[frame_len - 1] != END_CODE)
-        {
-            /* Bad framing; drop 1 byte and resync */
-            (void)ByteQueue_Consume(BYTE_QUEUE_UART_ARD, 1);
-            continue;
-        }
+            /* Peek entire frame */
+            if (ByteQueue_Peek(BYTE_QUEUE_UART_ARD, gauc_DequeueBuffer, frame_len) < 0)
+            {
+                vTaskDelay(pdMS_TO_TICKS(1));
+                continue;
+            }
 
-        /* Now consume the packet from the queue */
-        (void)ByteQueue_Consume(BYTE_QUEUE_UART_ARD, frame_len);
+            /* Validate end code before consuming */
+            if (gauc_DequeueBuffer[frame_len - 1] != END_CODE)
+            {
+                /* Bad framing; drop 1 byte and resync */
+                (void)ByteQueue_Consume(BYTE_QUEUE_UART_ARD, 1);
+                continue;
+            }
 
-        /* Parse into struct */
-        (void)util_proto_Parsing(&stProtocol,
-                                 gauc_DequeueBuffer,
-                                 (unsigned short)frame_len);
+            /* Now consume the packet from the queue */
+            (void)ByteQueue_Consume(BYTE_QUEUE_UART_ARD, frame_len);
 
-        /* Dispatch by cmd */
-        if (stProtocol.ucCmd == CMD_REPLY_SENSOR_DATA)
-        {
-            iot_proc_ReplySensorData(&stProtocol);
+            /* Parse into struct */
+            (void)util_proto_Parsing(&stProtocol,
+                                     gauc_DequeueBuffer,
+                                     (unsigned short)frame_len);
+
+            /* Dispatch by cmd */
+            if (stProtocol.ucCmd == CMD_REPLY_SENSOR_DATA)
+            {
+                iot_proc_ReplySensorData(&stProtocol);
+            }
         }
 
         vTaskDelay(pdMS_TO_TICKS(1));
     }
 }
 
+/* PUBLIC */
 void iot_proc_Init(void)
 {
-
     BaseType_t iRet;
 
     iRet = xTaskCreate(iot_proc_MainTask,
@@ -130,9 +138,48 @@ void iot_proc_Init(void)
         printf("%s : process task create fail\r\n", __func__);
     }
 
-    // to do 원래 drv_uart에서 한바이트씩 넣어야 하는데,
-    // // write 함수를 사용해서 parsing 함수가 정상적으로 작동하는지 검사하기 위해서 enqueu를 할 것이다.
+    /*
+     * TODO (test injection):
+     * Originally, drv_uart should push bytes into the queue as they arrive.
+     * For testing that parsing works, we build a valid packet and enqueue it at once.
+     */
+#ifdef SUPPORT_TEST_CODE
+    {
+        unsigned char ucData[4] = {0};
+        unsigned char ucEnqueueBuffer[256];
+        t_Protocol stTestProto;
 
+        memset(ucEnqueueBuffer, 0, sizeof(ucEnqueueBuffer));
+        memset(&stTestProto, 0, sizeof(stTestProto));
 
-    ByteQueue_Write()
+        /* Fill protocol fields */
+        stTestProto.ucStart  = START_CODE;
+        stTestProto.usLength = (unsigned short)sizeof(ucData);
+        stTestProto.ucCmd    = CMD_REPLY_SENSOR_DATA;
+        stTestProto.ucData   = ucData;
+        stTestProto.ucEnd    = END_CODE;
+
+        /* Build framed packet into ucEnqueueBuffer */
+        {
+            PROTOCOL_RET ret =  util_proto_MakePacket(&stTestProto,
+                                                     ucEnqueueBuffer,
+                                                     (unsigned short)sizeof(ucEnqueueBuffer));
+
+            if (ret != PROTOCOL_OK)
+            {
+                printf("%s : make packet fail (%d)\r\n", __func__, (int)ret);
+            }
+            else
+            {
+                /* Frame length = header + payload + tail */
+                unsigned short usFrameLen =
+                    (unsigned short)(HEADER_SIZE + stTestProto.usLength + TAIL_SIZE);
+
+                (void)ByteQueue_Write(BYTE_QUEUE_UART_ARD,
+                                      ucEnqueueBuffer,
+                                      usFrameLen);
+            }
+        }
+    }
+#endif
 }
