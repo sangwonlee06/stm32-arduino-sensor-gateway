@@ -13,6 +13,7 @@
 
 /* DEFINEs */
 #define DEQUEUE_BUFFER_SIZE 1024
+#define SUPPORT_TEST_CODE
 
 /* GLOBAL VARIABLES */
 static unsigned char gauc_DequeueBuffer[DEQUEUE_BUFFER_SIZE];
@@ -155,8 +156,8 @@ void iot_proc_Init(void)
         /* Fill protocol fields */
         stTestProto.ucStart  = START_CODE;
         stTestProto.usLength = (unsigned short)sizeof(ucData);
-        stTestProto.ucCmd    = CMD_REPLY_SENSOR_DATA;
-        stTestProto.ucData   = ucData;
+        stTestProto.ucCmd    = CMD_REQ_SENSOR_DATA;
+        memcpy(&stTestProto.ucData, ucData, 4);
         stTestProto.ucEnd    = END_CODE;
 
         /* Build framed packet into ucEnqueueBuffer */
@@ -165,7 +166,7 @@ void iot_proc_Init(void)
                                                      ucEnqueueBuffer,
                                                      (unsigned short)sizeof(ucEnqueueBuffer));
 
-            if (ret != PROTOCOL_OK)
+            if (ret < NO_ERR)
             {
                 printf("%s : make packet fail (%d)\r\n", __func__, (int)ret);
             }
