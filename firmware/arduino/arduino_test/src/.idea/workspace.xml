@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06620d1c-7580-48e9-b060-adfdbf611422" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.ide.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.ide.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.core/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.core/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.core/iot_project.1766843017633.pdom" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.core/iot_project.1766843017633.pdom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.ui/iot_project.build.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.cdt.ui/iot_project.build.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/2/6052d2d925e300101d389093cbafe8a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/2/f061489a27e300101d389093cbafe8a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/45/00fbd5b525e300101d389093cbafe8a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/46/50ebde0d2ae300101050bd745de6b0be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/5d/704b162e2ae300101050bd745de6b0be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/7d/7033da1a28e300101d389093cbafe8a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/84/10fb8d702ae300101050bd745de6b0be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/a0/705b38b525e300101d389093cbafe8a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/c6/30876fab2ae300101050bd745de6b0be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.history/df/e0736b0e2ae300101050bd745de6b0be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.projects/iot/.indexes/af/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.projects/iot_project/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.projects/iot_project/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.projects/iot_project/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.projects/iot_project/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.projects/iot_project/.syncinfo.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.projects/iot_project/.syncinfo.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.resources/1.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/12/52/refactorings.history" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/12/52/refactorings.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/12/52/refactorings.index" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2025/12/52/refactorings.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/iot_project/Core/Src/iot/iot_proc.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/iot_project/Core/Src/iot/iot_proc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/iot_project/Debug/Core/Src/iot/iot_proc.cyclo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/iot_project/Debug/Core/Src/iot/iot_proc.cyclo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../stm32/app/iot_project/Debug/iot_project.list" beforeDir="false" afterPath="$PROJECT_DIR$/../../../stm32/app/iot_project/Debug/iot_project.list" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="38khnTPJtO1XHlQPSQL4y7EKJ5S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06620d1c-7580-48e9-b060-adfdbf611422" name="Changes" comment="" />
+      <created>1769349642486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769349642486</updated>
+      <workItem from="1769349643567" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
