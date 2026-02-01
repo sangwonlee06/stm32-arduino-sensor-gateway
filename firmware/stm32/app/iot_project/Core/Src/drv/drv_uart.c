@@ -11,7 +11,7 @@
 
 /* DEFINEs */
 #define UART_ARDU_QUEUE_SIZE        2048u
-#define NUM_RX_INT                  1u
+#define NUM_RX_INT                  1u // designate when to interrupt RX.
 
 /* GLOBAL VARIABLES */
 static uint8_t guc_ArduReadBuffer;

@@ -10,6 +10,7 @@
 #include "byte_queue.h"
 #include "util_proto.h"   /* t_Protocol, HEADER_SIZE, TAIL_SIZE, START_CODE, END_CODE,
                              util_proto_Parsing, util_proto_MakePacket, CMD_REPLY_SENSOR_DATA */
+#include "drv_uart.h"
 
 /* DEFINEs */
 #define DEQUEUE_BUFFER_SIZE 1024
@@ -176,9 +177,11 @@ void iot_proc_Init(void)
                 unsigned short usFrameLen =
                     (unsigned short)(HEADER_SIZE + stTestProto.usLength + TAIL_SIZE);
 
-                (void)ByteQueue_Write(BYTE_QUEUE_UART_ARD,
-                                      ucEnqueueBuffer,
-                                      usFrameLen);
+//                (void)ByteQueue_Write(BYTE_QUEUE_UART_ARD,
+//                                      ucEnqueueBuffer,
+//                                      usFrameLen);
+
+                Drv_Uart_Send(UART_ARDU, ucEnqueueBuffer, usFrameLen);
             }
         }
     }
